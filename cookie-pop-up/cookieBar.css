@@ -9,7 +9,7 @@
 }
 .cookie-message a {                 /*close link*/
   position:absolute;
-  top:0; *top:-2px; right:20px;
+  top:0; right:20px;
   cursor:pointer;
 }
 .cookie-message p, .cookie-message a {              /*message box contents*/
