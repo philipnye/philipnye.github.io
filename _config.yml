@@ -1,0 +1,23 @@
+title: Philip Nye, journalist and researcher
+email: contact at philipnye dot co dot uk
+description: >-
+    The personal website of Philip Nye, journalist and researcher
+baseurl: ""
+url: ""
+
+# Build settings
+remote_theme: thelehhman/plainwhite-jekyll
+plugins:
+    - jekyll-feed
+    - jekyll-sitemap
+
+# Theme settings
+plainwhite:
+    name: Philip Nye
+    tagline: Journalist and researcher
+    date_format: "%b %-d, %Y"
+    sitemap: true
+    social_links:
+        twitter: philipnye
+        github: philipnye
+        email: mailto:contact@philipnye.co.uk

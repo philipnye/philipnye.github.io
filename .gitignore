@@ -1,1 +1,6 @@
-mock_ups/
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+
+_drafts
