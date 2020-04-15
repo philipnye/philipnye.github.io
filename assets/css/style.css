@@ -11,13 +11,13 @@
 .icon-calendar:before { content: '\e800'; }
 
 /* '' */
-.icon-github-circled:before { content: '\f09b'; }
+.icon-github-squared:before { content: '\f300'; }
 
 /* '' */
 .icon-twitter-squared:before { content: '\f304'; }
 
 /* '' */
-.icon-linkedin-squared:before { content: '\f30c'; }
+.icon-mail-squared:before { content: '\f199'; }
 
 /* '' */
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
