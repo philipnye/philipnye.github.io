@@ -1,0 +1,36 @@
+/* Colours */
+.yellow {
+	color: #e6e600;
+	fill: #e6e600;
+	stroke: #e6e600;
+}
+
+.navy {
+	color: #002b80;
+	fill: #002b80;
+	stroke: #002b80;
+}
+
+.turquoise {
+	color: #00b3b3;
+	fill: #00b3b3;
+	stroke: #00b3b3;
+}
+
+.dark-grey {
+	color: #404040;
+	fill: #404040;
+	stroke: #404040;
+}
+
+.light-grey {
+	color: #bfbfbf;
+	fill: #bfbfbf;
+	stroke: #bfbfbf;
+}
+
+
+/* Line style */
+.dash {
+	stroke-dasharray: 10;
+}
