@@ -11,3 +11,11 @@ Release date: 22 May 2020
 Explanation for high public sector net borrowing in April 2012
 https://www.ons.gov.uk/economy/governmentpublicsectorandtaxes/publicsectorfinance/bulletins/publicsectorfinances/november2015
 PSNB ex in the financial year ending 2013 (April 2012 to March 2013) was higher than in the previous financial year largely as a result of the recording of an £8.9 billion payable capital transfer in April 2012, as recognition that the liabilities transferred from the Royal Mail Pension Plan exceeded the assets transferred.
+
+
+--- WORKFLOW
+1. Read release key points
+2. Grab latest data
+3. Transpose
+4. Format as 'General' (removing commas)
+5. Amend reference to data.json, to data_latest.json, in JS file
