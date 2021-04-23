@@ -13,6 +13,6 @@ And now. Deficit figures for April have been [published this morning](https://ww
 
 <div id="ch1" class="vis-highcharts"></div>
 
-Borrowing of £62.1bn is the highest monthly total since records began in 1992. So, if this is something you're allowed to write immediately following a chart, we're in uncharted territory.
+Borrowing of £62.1bn is the highest monthly total since records began in 1993. So, if this is something you're allowed to write immediately following a chart, we're in uncharted territory.
 
 <a name="footnote1">1</a>: _Public sector net borrowing excluding public sector banks_
