@@ -11,4 +11,5 @@ platforms :mingw, :x64_mingw, :mswin, :jruby do
   gem "tzinfo-data"
 end
 
-gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
+# Replace problematic gem (0.1.1) (ref. https://github.com/jekyll/jekyll/issues/9660#issuecomment-2331271748)
+gem "wdm", "~> 0.2", :platforms => [:mingw, :x64_mingw, :mswin]
