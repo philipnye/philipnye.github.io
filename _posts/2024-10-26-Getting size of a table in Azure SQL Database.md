@@ -1,5 +1,5 @@
 ---
-title: Installing node.js
+title: Getting size of a table in Azure SQL Database
 date: 2024-10-26 19:10:00 +/0000
 categories: [TIL]
 tags: [azure, azure-sql-database]
