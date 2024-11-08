@@ -39,7 +39,7 @@ connection = dbo.connect_sql_db(
 )
 ```
 
-where `['ODBC_DATABASE']` is `ActiveDirectoryServicePrincipal`.
+where `['ODBC_AUTHENTICATION']` is `ActiveDirectoryServicePrincipal`.
 
 ## [Using access tokens](https://learn.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver16#new-andor-modified-connection-attributes)
 
