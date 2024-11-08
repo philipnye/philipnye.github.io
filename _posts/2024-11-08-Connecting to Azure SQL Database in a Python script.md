@@ -27,18 +27,19 @@ from ds_utils import database_operations as dbo
 
 # %%
 # CONNECT TO D/B
-# Create SQLAlchemy engine
 connection = dbo.connect_sql_db(
     driver='pyodbc',
     driver_version=os.environ['ODBC_DRIVER'],
     dialect='mssql',
     server=os.environ['ODBC_SERVER'],
     database=os.environ['ODBC_DATABASE'],
-    authentication='ActiveDirectoryServicePrincipal',
+    authentication=os.environ['ODBC_AUTHENTICATION'],
     username=os.environ['AZURE_CLIENT_ID'],
     password=os.environ['AZURE_CLIENT_SECRET'],
 )
 ```
+
+where `['ODBC_DATABASE']` is `ActiveDirectoryServicePrincipal`.
 
 ## [Using access tokens](https://learn.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver16#new-andor-modified-connection-attributes)
 
