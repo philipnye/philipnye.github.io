@@ -1,5 +1,5 @@
 ---
-title: Configuring Git user email, username
+title: Installing pyodbc on Python 3.13
 date: 2024-10-09 00:00:00 +/0000
 categories: [TIL]
 tags: [python, sql, pyodbc]
