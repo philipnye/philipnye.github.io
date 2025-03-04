@@ -6,10 +6,10 @@ tags: [python, warnings, errors]
 ---
 
 Create virtual environment named `env` inside current directory:\
-`python -m venv env_pn`
+`python -m venv env`
 
 Create virtual environment named `env` inside current directory using a specific version of Python:\
-`python -3.13 -m venv env_pn`
+`python -3.13 -m venv env`
 
 Activate virtual environment (NB: capitalisation matters, as does the fact they're backslashes rather than forward slashes):\
 `env\Scripts\activate`
