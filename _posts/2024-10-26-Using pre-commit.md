@@ -17,3 +17,5 @@ Running pre-commit hooks on a specific file:
 Running pre-commit hooks on all files:  
 <!-- TODO: Doesn't work   -->
 `pre-commit run --all-files`
+
+NB: [Pre-commit hooks aren't installed when a GitHub repository is cloned](https://pre-commit.com/#usage). When cloning a project using pre-commit, running `pre-commit install` should be the first thing you do
