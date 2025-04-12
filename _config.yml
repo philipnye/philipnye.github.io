@@ -28,9 +28,6 @@ url: "https://philipnye.github.io"
 github:
   username: philipnye # change to your GitHub username
 
-twitter:
-  username: philipnye # change to your Twitter username
-
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
@@ -40,7 +37,6 @@ social:
     # The first element serves as the copyright owner's link
     - https://github.com/username
     - https://bsky.app/profile/philipnye.bsky.social
-    - https://twitter.com/philipnye
 
 # Web Analytics Settings
 analytics:
