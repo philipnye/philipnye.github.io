@@ -2,7 +2,7 @@
 title: Using Python virtual environments
 date: 2024-12-11 12:30:00 +/0000
 categories: [TIL]
-tags: [python, warnings, errors]
+tags: [python, virtual-environment, venv]
 ---
 
 Create virtual environment named `env` inside current directory:\
