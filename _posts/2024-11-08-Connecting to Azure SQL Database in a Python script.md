@@ -5,7 +5,7 @@ categories: [TIL]
 tags: [python, azure, azure-sql-database, application-service-principal]
 ---
 
-Both when developing locally and when an app is deployed on-premises (e.g. on Streamlit), [authenticating an app using an _application service principal_ is an option](https://learn.microsoft.com/en-us/azure/developer/python/sdk/authentication/overview#recommended-app-authentication-approach). In fact, this is the only option when deploying on-premises.
+Both when developing locally and when an app is deployed on a non-Azure service (e.g. on Streamlit), [authenticating an app using an _application service principal_ is an option](https://learn.microsoft.com/en-us/azure/developer/python/sdk/authentication/overview#recommended-app-authentication-approach). In fact, this is the only option when deploying on-premises.
 
 1. In 'App registration' in the Azure portal, create a new registration with a client secret following step 1 [here](https://learn.microsoft.com/en-us/azure/developer/python/sdk/authentication/local-development-service-principal?tabs=azure-portal)
 1. Copy the 'Application (client) ID', 'Directory (tenant) ID' and client secret and save them as environment variables locally and/or within the app that will be connecting to the database (e.g. GitHub Codespaces, Streamlit)
