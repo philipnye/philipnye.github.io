@@ -5,7 +5,7 @@ categories: [TIL]
 tags: [python, sql, pyodbc, sqlalchemy, sqlite, parameters]
 ---
 
-# `pd.read_sql()`/`pd.read_sql_query()`
+# pandas `pd.read_sql()`/`pd.read_sql_query()`
 Parameters are supplied in a different format depending on the database driver being used.
 
 [`pyodbc` doesn't support named parameters](https://stackoverflow.com/questions/32748982/does-pyodbc-support-any-form-of-named-parameters) - parameters instead have to be represented as `?` in the query, with parameters then passed as a tuple to `pd.read_sql()`/`pd.read_sql_query()`. (One drawback: As of the time of writing, parameters like these will be [flagged as errors in VSCode](https://github.com/microsoft/vscode-mssql/issues/19096)).
