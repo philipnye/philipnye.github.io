@@ -33,7 +33,7 @@ This can be fixed in one of three ways:
     }
     ```
 
-    This will set the working directory for all notebooks to your project root.
+    [This will set the working directory for all notebooks to your project root.](https://stackoverflow.com/a/73954710/4659442)
 
 1. **Move the script to the project root**
 
