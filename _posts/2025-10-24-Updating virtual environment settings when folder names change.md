@@ -1,6 +1,6 @@
 ---
 title: Updating virtual environment settings when folder names change
-date: 2025-09-24 00:00:00 +/0000
+date: 2025-10-24 00:00:00 +/0000
 categories: [TIL]
 tags: [python, virtualenv]
 ---
