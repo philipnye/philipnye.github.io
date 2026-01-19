@@ -27,4 +27,4 @@ _sass/dist
 assets/js/dist
 
 # Custom ignores
-*temp*.*
+*temp_*.*
