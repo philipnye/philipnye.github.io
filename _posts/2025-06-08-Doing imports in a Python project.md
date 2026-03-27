@@ -5,7 +5,7 @@ categories: [TIL]
 tags: [python, packages, imports, vs-code, github-actions, command-line]
 ---
 
-When running scripts, `PYTHONPATH` is set to the parent directory of the executed script.
+When running scripts, `PYTHONPATH` is set to the directory of the executed script.
 
 Import statements that include the full path from the project root (absolute imports - e.g. `import mypackage.mysubpackage.mymodule`) therefore won’t work without any further modification – when running a script interactively in VS Code, in a GitHub Actions workflow, or from the command line.
 
@@ -20,6 +20,8 @@ There are options for solving this:
         "jupyter.notebookFileRoot": "${workspaceFolder}"
     }
     ```
+
+    It may be necessary to restart VS Code for this to take effect.
 
 1. **[Best for GitHub Actions[^1]] (Temporarily) add the project root to PYTHONPATH**
 
