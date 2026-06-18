@@ -14,13 +14,13 @@ Create the template directory and hook file:
 New-Item -ItemType Directory -Path "$env:USERPROFILE\.git-templates\hooks" -Force
 ```
 
-Save the following as `C:\Users\<username>\.git-templates\hooks\pre-commit`:
-```sh
-#!/bin/sh
-if [ -f ".pre-commit-config.yaml" ] && command -v pre-commit >/dev/null 2>&1; then
-    pre-commit install --install-hooks 2>/dev/null
-    pre-commit run
-fi
+Save the following as `C:\Users\<username>\.git-templates\hooks\pre-commit.cmd`:
+```bat
+@echo off
+if not exist ".pre-commit-config.yaml" exit /b 0
+where pre-commit >nul 2>&1 || exit /b 0
+pre-commit install --install-hooks 2>nul
+pre-commit run
 ```
 
 Register the template directory globally:
